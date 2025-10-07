@@ -1,0 +1,24 @@
+{
+  "budgetwise_finance_dataset.csv": [
+    "transaction_id",
+    "user_id",
+    "date",
+    "transaction_type",
+    "category",
+    "amount",
+    "payment_mode",
+    "location",
+    "notes"
+  ],
+  "budgetwise_synthetic_dirty.csv": [
+    "transaction_id",
+    "user_id",
+    "date",
+    "transaction_type",
+    "category",
+    "amount",
+    "payment_mode",
+    "location",
+    "notes"
+  ]
+}
