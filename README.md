@@ -2,39 +2,6 @@
 
 This repository contains a professional, reproducible starter project for *Personal Expense Forecasting and Budget Optimization*.
 It was generated from the user's provided project description and datasets.
-personal_expense_forecasting/
-├── README.md                 ← Project overview & usage
-├── LICENSE
-├── requirements.txt          ← Python dependencies
-├── Dockerfile                ← Optional containerization
-│
-├── data/
-│   ├── raw/                   ← Original uploaded CSVs
-│   └── processed/             ← Cleaned dataset (cleaned_transactions.csv)
-│
-├── src/                       ← Source scripts for pipeline
-│   ├── data_preprocessing.py  ← Cleans and combines raw data
-│   ├── train_baseline.py      ← Trains RandomForest baseline model
-│   └── train_lstm.py          ← (Optional, run locally with TF) LSTM model training
-│
-├── models/                    ← Trained model artifacts
-│   ├── rf_monthly_total.pkl   ← RandomForest model
-│   └── lstm_monthly_total.h5  ← LSTM model (if trained locally)
-│
-├── app/
-│   ├── streamlit_app.py       ← Basic demo app
-│   └── streamlit_app_enhanced.py ← Enhanced app with category trends & budget optimizer
-│
-├── notebooks/
-│   └── EDA_full.ipynb         ← Jupyter notebook for EDA & experiments
-│
-└── reports/                   ← Generated reports and analysis
-    ├── evaluation.json        ← Metrics of RF baseline
-    ├── lstm_note.txt          ← Note about TF limitation
-    ├── monthly_aggregated.csv ← Aggregated monthly expenses
-    └── monthly_by_category.csv← Category-level aggregates
-
-
 ## Structure
 - `data/raw/` - original uploaded datasets
 - `data/processed/` - cleaned and preprocessed data (cleaned_transactions.csv)
